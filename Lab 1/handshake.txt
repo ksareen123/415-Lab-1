@@ -1,0 +1,131 @@
+No.     Time           Source                Destination           Protocol Length Info
+      6 37.326048      30.30.30.1            30.30.30.6            TCP      66     51328 → 10000 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 6: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0x0170 (368)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x8211 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 51328, Dst Port: 10000, Seq: 0, Len: 0
+    Source Port: 51328
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, NO_DATA (39)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1905365705
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x002 (SYN)
+    Window: 64240
+    [Calculated window size: 64240]
+    Checksum: 0x07f1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 37.326316      30.30.30.6            30.30.30.1            TCP      66     10000 → 51328 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xfb94 (64404)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 51328, Seq: 0, Ack: 1, Len: 0
+    Source Port: 10000
+    Destination Port: 51328
+    [Stream index: 0]
+    [Conversation completeness: Complete, NO_DATA (39)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 4162918810
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1905365706
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x7869 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 37.329106      30.30.30.1            30.30.30.6            TCP      60     51328 → 10000 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x0171 (369)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x821c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 51328, Dst Port: 10000, Seq: 1, Ack: 1, Len: 0
+    Source Port: 51328
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, NO_DATA (39)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1905365706
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 4162918811
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x30e8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+

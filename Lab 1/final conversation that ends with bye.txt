@@ -1,0 +1,2813 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 1: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 6.058209       30.30.30.1            30.30.30.6            TCP      66     58192 → 10000 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 2: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0x64ea (25834)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e97 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 0, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1055380488
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x002 (SYN)
+    Window: 64240
+    [Calculated window size: 64240]
+    Checksum: 0xde8b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 6.058422       30.30.30.6            30.30.30.1            TCP      66     10000 → 58192 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0xfbe1 (64481)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 0, Ack: 1, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 422921487
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1055380489
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x7869 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 6.060910       30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=1 Ack=1 Win=65536 Len=0
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64eb (25835)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1ea2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 1, Ack: 1, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1055380489
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 422921488
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xbafa [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 8.844045       Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 10.225841      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [PSH, ACK] Seq=1 Ack=1 Win=65536 Len=5
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 45
+    Identification: 0x64ec (25836)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e9c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 1, Ack: 1, Len: 5
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 5]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1055380489
+    [Next Sequence Number: 6    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 422921488
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x7e1b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (5 bytes)
+Data (5 bytes)
+
+0000  61 69 67 68 74                                    aight
+    Data: 6169676874
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 10.278389      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=1 Ack=6 Win=525568 Len=0
+
+Frame 7: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbe2 (64482)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 1, Ack: 6, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 422921488
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 6    (relative ack number)
+    Acknowledgment number (raw): 1055380494
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2053
+    [Calculated window size: 525568]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 12.557227      30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 8: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc22 (56354)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 49670, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 13.563012      30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 9: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc23 (56355)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 49670, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 14.578221      30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 10: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc24 (56356)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 49670, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 15.502164      30.30.30.6            30.30.30.1            TCP      62     10000 → 58192 [PSH, ACK] Seq=1 Ack=6 Win=525568 Len=8
+
+Frame 11: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 48
+    Identification: 0xfbe3 (64483)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 1, Ack: 6, Len: 8
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 8]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 422921488
+    [Next Sequence Number: 9    (relative sequence number)]
+    Acknowledgment Number: 6    (relative ack number)
+    Acknowledgment number (raw): 1055380494
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2053
+    [Calculated window size: 525568]
+    [Window size scaling factor: 256]
+    Checksum: 0x7865 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (8 bytes)
+Data (8 bytes)
+
+0000  6e 6f 77 20 77 68 61 74                           now what
+    Data: 6e6f772077686174
+    [Length: 8]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 15.555098      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=6 Ack=9 Win=65536 Len=0
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64ed (25837)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1ea0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 6, Ack: 9, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 6    (relative sequence number)
+    Sequence Number (raw): 1055380494
+    [Next Sequence Number: 6    (relative sequence number)]
+    Acknowledgment Number: 9    (relative ack number)
+    Acknowledgment number (raw): 422921496
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xbaed [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 15.592569      30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 13: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc25 (56357)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 49670, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 18.844294      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 21.001839      30.30.30.1            30.30.30.6            TCP      67     58192 → 10000 [PSH, ACK] Seq=6 Ack=9 Win=65536 Len=13
+
+Frame 15: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 53
+    Identification: 0x64ee (25838)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e92 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 6, Ack: 9, Len: 13
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 13]
+    Sequence Number: 6    (relative sequence number)
+    Sequence Number (raw): 1055380494
+    [Next Sequence Number: 19    (relative sequence number)]
+    Acknowledgment Number: 9    (relative ack number)
+    Acknowledgment number (raw): 422921496
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x41ea [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (13 bytes)
+Data (13 bytes)
+
+0000  49 20 67 6f 74 20 6e 6f 20 69 64 65 61            I got no idea
+    Data: 4920676f74206e6f2069646561
+    [Length: 13]
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 21.050652      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=9 Ack=19 Win=525568 Len=0
+
+Frame 16: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbe4 (64484)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 9, Ack: 19, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 9    (relative sequence number)
+    Sequence Number (raw): 422921496
+    [Next Sequence Number: 9    (relative sequence number)]
+    Acknowledgment Number: 19    (relative ack number)
+    Acknowledgment number (raw): 1055380507
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2053
+    [Calculated window size: 525568]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 23.710088      30.30.30.6            30.30.30.1            TCP      57     10000 → 58192 [PSH, ACK] Seq=9 Ack=19 Win=525568 Len=3 [TCP segment of a reassembled PDU]
+
+Frame 17: 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 43
+    Identification: 0xfbe5 (64485)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 9, Ack: 19, Len: 3
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 3]
+    Sequence Number: 9    (relative sequence number)
+    Sequence Number (raw): 422921496
+    [Next Sequence Number: 12    (relative sequence number)]
+    Acknowledgment Number: 19    (relative ack number)
+    Acknowledgment number (raw): 1055380507
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2053
+    [Calculated window size: 525568]
+    [Window size scaling factor: 256]
+    Checksum: 0x7860 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (3 bytes)
+    [Reassembled PDU in frame: 22]
+    TCP segment data (3 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 23.768527      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=19 Ack=12 Win=65536 Len=0
+
+Frame 18: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64ef (25839)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 19, Ack: 12, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 19    (relative sequence number)
+    Sequence Number (raw): 1055380507
+    [Next Sequence Number: 19    (relative sequence number)]
+    Acknowledgment Number: 12    (relative ack number)
+    Acknowledgment number (raw): 422921499
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xbadd [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 28.844433      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 19: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 29.090152      30.30.30.1            30.30.30.6            TCP      83     58192 → 10000 [PSH, ACK] Seq=19 Ack=12 Win=65536 Len=29
+
+Frame 20: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 69
+    Identification: 0x64f0 (25840)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e80 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 19, Ack: 12, Len: 29
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 29]
+    Sequence Number: 19    (relative sequence number)
+    Sequence Number (raw): 1055380507
+    [Next Sequence Number: 48    (relative sequence number)]
+    Acknowledgment Number: 12    (relative ack number)
+    Acknowledgment number (raw): 422921499
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xddfd [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (29 bytes)
+Data (29 bytes)
+
+0000  79 65 61 68 20 69 20 67 75 65 73 73 20 77 65 20   yeah i guess we 
+0010  6a 75 73 74 20 73 69 74 20 68 65 72 65            just sit here
+    Data: 796561682069206775657373207765206a757374207369742068657265
+    [Length: 29]
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 29.136069      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=12 Ack=48 Win=525312 Len=0
+
+Frame 21: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbe6 (64486)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 12, Ack: 48, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 12    (relative sequence number)
+    Sequence Number (raw): 422921499
+    [Next Sequence Number: 12    (relative sequence number)]
+    Acknowledgment Number: 48    (relative ack number)
+    Acknowledgment number (raw): 1055380536
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 33.539269      30.30.30.6            30.30.30.1            TCP      68     10000 → 58192 [PSH, ACK] Seq=12 Ack=48 Win=525312 Len=14
+
+Frame 22: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 54
+    Identification: 0xfbe7 (64487)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 12, Ack: 48, Len: 14
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 14]
+    Sequence Number: 12    (relative sequence number)
+    Sequence Number (raw): 422921499
+    [Next Sequence Number: 26    (relative sequence number)]
+    Acknowledgment Number: 48    (relative ack number)
+    Acknowledgment number (raw): 1055380536
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x786b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (14 bytes)
+    TCP segment data (14 bytes)
+[2 Reassembled TCP Segments (17 bytes): #17(3), #22(14)]
+Data (17 bytes)
+
+0000  6f 6f 66 69 74 20 62 65 20 6c 69 6b 65 20 74 68   oofit be like th
+0010  61                                                a
+    Data: 6f6f666974206265206c696b6520746861
+    [Length: 17]
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 33.581459      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=48 Ack=26 Win=65536 Len=0
+
+Frame 23: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64f1 (25841)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e9c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 48, Ack: 26, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 48    (relative sequence number)
+    Sequence Number (raw): 1055380536
+    [Next Sequence Number: 48    (relative sequence number)]
+    Acknowledgment Number: 26    (relative ack number)
+    Acknowledgment number (raw): 422921513
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xbab2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 33.860956      RealtekS_68:23:8b     Cisco_82:0b:84        ARP      42     Who has 30.30.30.5? Tell 30.30.30.6
+
+Frame 24: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 33.864405      Cisco_82:0b:84        RealtekS_68:23:8b     ARP      60     30.30.30.5 is at 00:10:7b:82:0b:84
+
+Frame 25: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 36.307554      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [PSH, ACK] Seq=48 Ack=26 Win=65536 Len=4
+
+Frame 26: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 44
+    Identification: 0x64f2 (25842)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e97 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 48, Ack: 26, Len: 4
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 4]
+    Sequence Number: 48    (relative sequence number)
+    Sequence Number (raw): 1055380536
+    [Next Sequence Number: 52    (relative sequence number)]
+    Acknowledgment Number: 26    (relative ack number)
+    Acknowledgment number (raw): 422921513
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xdfd8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (4 bytes)
+Data (4 bytes)
+
+0000  79 65 61 68                                       yeah
+    Data: 79656168
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 36.352590      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=26 Ack=52 Win=525312 Len=0
+
+Frame 27: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbe8 (64488)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 26, Ack: 52, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 26    (relative sequence number)
+    Sequence Number (raw): 422921513
+    [Next Sequence Number: 26    (relative sequence number)]
+    Acknowledgment Number: 52    (relative ack number)
+    Acknowledgment number (raw): 1055380540
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 38.844439      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 28: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 43.889475      30.30.30.6            30.30.30.1            TCP      58     10000 → 58192 [PSH, ACK] Seq=26 Ack=52 Win=525312 Len=4
+
+Frame 29: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 44
+    Identification: 0xfbe9 (64489)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 26, Ack: 52, Len: 4
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 4]
+    Sequence Number: 26    (relative sequence number)
+    Sequence Number (raw): 422921513
+    [Next Sequence Number: 30    (relative sequence number)]
+    Acknowledgment Number: 52    (relative ack number)
+    Acknowledgment number (raw): 1055380540
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x7861 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (4 bytes)
+Data (4 bytes)
+
+0000  77 79 64 3f                                       wyd?
+    Data: 7779643f
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 43.940008      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=52 Ack=30 Win=65536 Len=0
+
+Frame 30: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64f3 (25843)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e9a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 52, Ack: 30, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 52    (relative sequence number)
+    Sequence Number (raw): 1055380540
+    [Next Sequence Number: 52    (relative sequence number)]
+    Acknowledgment Number: 30    (relative ack number)
+    Acknowledgment number (raw): 422921517
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xbaaa [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 48.844251      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 31: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 51.781385      30.30.30.1            30.30.30.6            TCP      73     58192 → 10000 [PSH, ACK] Seq=52 Ack=30 Win=65536 Len=19
+
+Frame 32: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 59
+    Identification: 0x64f4 (25844)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e86 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 52, Ack: 30, Len: 19
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 19]
+    Sequence Number: 52    (relative sequence number)
+    Sequence Number (raw): 1055380540
+    [Next Sequence Number: 71    (relative sequence number)]
+    Acknowledgment Number: 30    (relative ack number)
+    Acknowledgment number (raw): 422921517
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x25e8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (19 bytes)
+Data (19 bytes)
+
+0000  67 6f 74 20 61 6e 20 38 20 61 6d 20 6c 61 62 20   got an 8 am lab 
+0010  73 6d 68                                          smh
+    Data: 676f7420616e203820616d206c616220736d68
+    [Length: 19]
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 51.821785      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=30 Ack=71 Win=525312 Len=0
+
+Frame 33: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbea (64490)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 30, Ack: 71, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 30    (relative sequence number)
+    Sequence Number (raw): 422921517
+    [Next Sequence Number: 30    (relative sequence number)]
+    Acknowledgment Number: 71    (relative ack number)
+    Acknowledgment number (raw): 1055380559
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 56.365573      RealtekS_68:23:8b     Cisco_82:0b:84        ARP      42     Who has 30.30.30.5? Tell 30.30.30.6
+
+Frame 34: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 56.368869      Cisco_82:0b:84        RealtekS_68:23:8b     ARP      60     30.30.30.5 is at 00:10:7b:82:0b:84
+
+Frame 35: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 56.445397      30.30.30.6            30.30.30.1            TCP      64     10000 → 58192 [PSH, ACK] Seq=30 Ack=71 Win=525312 Len=10
+
+Frame 36: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 50
+    Identification: 0xfbeb (64491)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 30, Ack: 71, Len: 10
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 10]
+    Sequence Number: 30    (relative sequence number)
+    Sequence Number (raw): 422921517
+    [Next Sequence Number: 40    (relative sequence number)]
+    Acknowledgment Number: 71    (relative ack number)
+    Acknowledgment number (raw): 1055380559
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x7867 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (10 bytes)
+Data (10 bytes)
+
+0000  20 66 65 6c 74 20 74 68 61 74                      felt that
+    Data: 2066656c742074686174
+    [Length: 10]
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 56.490453      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=71 Ack=40 Win=65536 Len=0
+
+Frame 37: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64f5 (25845)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e98 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 71, Ack: 40, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 71    (relative sequence number)
+    Sequence Number (raw): 1055380559
+    [Next Sequence Number: 71    (relative sequence number)]
+    Acknowledgment Number: 40    (relative ack number)
+    Acknowledgment number (raw): 422921527
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xba8d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 58.844512      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 38: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 58.854769      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [PSH, ACK] Seq=71 Ack=40 Win=65536 Len=4
+
+Frame 39: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 44
+    Identification: 0x64f6 (25846)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e93 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 71, Ack: 40, Len: 4
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 4]
+    Sequence Number: 71    (relative sequence number)
+    Sequence Number (raw): 1055380559
+    [Next Sequence Number: 75    (relative sequence number)]
+    Acknowledgment Number: 40    (relative ack number)
+    Acknowledgment number (raw): 422921527
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xdfb3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (4 bytes)
+Data (4 bytes)
+
+0000  79 65 61 68                                       yeah
+    Data: 79656168
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 58.900532      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=40 Ack=75 Win=525312 Len=0
+
+Frame 40: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbec (64492)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 40, Ack: 75, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 40    (relative sequence number)
+    Sequence Number (raw): 422921527
+    [Next Sequence Number: 40    (relative sequence number)]
+    Acknowledgment Number: 75    (relative ack number)
+    Acknowledgment number (raw): 1055380563
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 60.000477      Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 41: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 68.844375      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 42: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 74.737257      30.30.30.6            30.30.30.1            TCP      83     10000 → 58192 [PSH, ACK] Seq=40 Ack=75 Win=525312 Len=29
+
+Frame 43: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 69
+    Identification: 0xfbed (64493)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 40, Ack: 75, Len: 29
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 29]
+    Sequence Number: 40    (relative sequence number)
+    Sequence Number (raw): 422921527
+    [Next Sequence Number: 69    (relative sequence number)]
+    Acknowledgment Number: 75    (relative ack number)
+    Acknowledgment number (raw): 1055380563
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x787a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (29 bytes)
+Data (29 bytes)
+
+0000  64 6f 6e 74 20 79 6f 75 20 68 61 76 65 20 73 6f   dont you have so
+0010  6d 65 77 68 65 72 65 20 74 6f 20 62 65            mewhere to be
+    Data: 646f6e7420796f75206861766520736f6d65776865726520746f206265
+    [Length: 29]
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 74.789661      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=75 Ack=69 Win=65536 Len=0
+
+Frame 44: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64f7 (25847)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e96 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 75, Ack: 69, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 75    (relative sequence number)
+    Sequence Number (raw): 1055380563
+    [Next Sequence Number: 75    (relative sequence number)]
+    Acknowledgment Number: 69    (relative ack number)
+    Acknowledgment number (raw): 422921556
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xba6c [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 78.844743      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 45: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 79.363487      RealtekS_68:23:8b     Cisco_82:0b:84        ARP      42     Who has 30.30.30.5? Tell 30.30.30.6
+
+Frame 46: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 79.366872      Cisco_82:0b:84        RealtekS_68:23:8b     ARP      60     30.30.30.5 is at 00:10:7b:82:0b:84
+
+Frame 47: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 80.048831      30.30.30.1            30.30.30.6            TCP      67     58192 → 10000 [PSH, ACK] Seq=75 Ack=69 Win=65536 Len=13
+
+Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 53
+    Identification: 0x64f8 (25848)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e88 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 75, Ack: 69, Len: 13
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 13]
+    Sequence Number: 75    (relative sequence number)
+    Sequence Number (raw): 1055380563
+    [Next Sequence Number: 88    (relative sequence number)]
+    Acknowledgment Number: 69    (relative ack number)
+    Acknowledgment number (raw): 422921556
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x64bd [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (13 bytes)
+Data (13 bytes)
+
+0000  6f 68 20 73 68 6f 6f 74 20 79 65 61 68            oh shoot yeah
+    Data: 6f682073686f6f742079656168
+    [Length: 13]
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 80.091347      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=69 Ack=88 Win=525312 Len=0
+
+Frame 49: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbee (64494)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 69, Ack: 88, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 69    (relative sequence number)
+    Sequence Number (raw): 422921556
+    [Next Sequence Number: 69    (relative sequence number)]
+    Acknowledgment Number: 88    (relative ack number)
+    Acknowledgment number (raw): 1055380576
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 85.924731      30.30.30.6            30.30.30.1            TCP      68     10000 → 58192 [PSH, ACK] Seq=69 Ack=88 Win=525312 Len=14
+
+Frame 50: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 54
+    Identification: 0xfbef (64495)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 69, Ack: 88, Len: 14
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 14]
+    Sequence Number: 69    (relative sequence number)
+    Sequence Number (raw): 422921556
+    [Next Sequence Number: 83    (relative sequence number)]
+    Acknowledgment Number: 88    (relative ack number)
+    Acknowledgment number (raw): 1055380576
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x786b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (14 bytes)
+Data (14 bytes)
+
+0000  67 65 74 20 6f 75 74 74 61 20 68 65 72 65         get outta here
+    Data: 676574206f757474612068657265
+    [Length: 14]
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 85.983180      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=88 Ack=83 Win=65536 Len=0
+
+Frame 51: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64f9 (25849)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e94 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 88, Ack: 83, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 88    (relative sequence number)
+    Sequence Number (raw): 1055380576
+    [Next Sequence Number: 88    (relative sequence number)]
+    Acknowledgment Number: 83    (relative ack number)
+    Acknowledgment number (raw): 422921570
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xba51 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 87.426346      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [PSH, ACK] Seq=88 Ack=83 Win=65536 Len=3 [TCP segment of a reassembled PDU]
+
+Frame 52: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 43
+    Identification: 0x64fa (25850)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e90 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 88, Ack: 83, Len: 3
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 3]
+    Sequence Number: 88    (relative sequence number)
+    Sequence Number (raw): 1055380576
+    [Next Sequence Number: 91    (relative sequence number)]
+    Acknowledgment Number: 83    (relative ack number)
+    Acknowledgment number (raw): 422921570
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xf2cc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (3 bytes)
+    TCP segment data (3 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 87.426346      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [FIN, ACK] Seq=91 Ack=83 Win=65536 Len=0
+
+Frame 53: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64fb (25851)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e92 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 91, Ack: 83, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 91    (relative sequence number)
+    Sequence Number (raw): 1055380579
+    [Next Sequence Number: 92    (relative sequence number)]
+    Acknowledgment Number: 83    (relative ack number)
+    Acknowledgment number (raw): 422921570
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xba4d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 87.426484      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [ACK] Seq=83 Ack=92 Win=525312 Len=0
+
+Frame 54: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbf0 (64496)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 83, Ack: 92, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 83    (relative sequence number)
+    Sequence Number (raw): 422921570
+    [Next Sequence Number: 83    (relative sequence number)]
+    Acknowledgment Number: 92    (relative ack number)
+    Acknowledgment number (raw): 1055380580
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 87.427754      30.30.30.6            30.30.30.1            TCP      54     10000 → 58192 [FIN, ACK] Seq=83 Ack=92 Win=525312 Len=0
+
+Frame 55: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 30.30.30.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0xfbf1 (64497)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 30.30.30.1
+Transmission Control Protocol, Src Port: 10000, Dst Port: 58192, Seq: 83, Ack: 92, Len: 0
+    Source Port: 10000
+    Destination Port: 58192
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 83    (relative sequence number)
+    Sequence Number (raw): 422921570
+    [Next Sequence Number: 84    (relative sequence number)]
+    Acknowledgment Number: 92    (relative ack number)
+    Acknowledgment number (raw): 1055380580
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+    Window: 2052
+    [Calculated window size: 525312]
+    [Window size scaling factor: 256]
+    Checksum: 0x785d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 87.429939      30.30.30.1            30.30.30.6            TCP      60     58192 → 10000 [ACK] Seq=92 Ack=84 Win=65536 Len=0
+
+Frame 56: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: RealtekS_68:23:8b (00:e0:4c:68:23:8b)
+Internet Protocol Version 4, Src: 30.30.30.1, Dst: 30.30.30.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 40
+    Identification: 0x64fc (25852)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 127
+    Protocol: TCP (6)
+    Header Checksum: 0x1e91 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.1
+    Destination Address: 30.30.30.6
+Transmission Control Protocol, Src Port: 58192, Dst Port: 10000, Seq: 92, Ack: 84, Len: 0
+    Source Port: 58192
+    Destination Port: 10000
+    [Stream index: 0]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 92    (relative sequence number)
+    Sequence Number (raw): 1055380580
+    [Next Sequence Number: 92    (relative sequence number)]
+    Acknowledgment Number: 84    (relative ack number)
+    Acknowledgment number (raw): 422921571
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0xba4c [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 88.844466      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 57: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 98.844930      Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 58: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 108.844629     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 59: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 118.844902     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 60: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 120.000892     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 61: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 128.844719     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 62: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 132.567943     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 63: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc26 (56358)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 59327, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 133.574300     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 64: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc27 (56359)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 59327, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 134.582910     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 65: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc28 (56360)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 59327, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 135.588596     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 66: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc29 (56361)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 59327, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 138.845138     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 67: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 148.844913     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 68: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 158.845333     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 69: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 168.845177     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 70: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 178.845425     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 71: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 180.002181     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 72: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 188.845333     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 73: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 198.845507     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 74: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 208.846300     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 75: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 218.846545     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 76: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 228.846454     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 77: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 238.846809     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 78: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 240.003001     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 79: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 248.846509     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 80: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 252.581534     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 81: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2a (56362)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 52700, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 253.600721     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 82: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2b (56363)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 52700, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 254.614504     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 83: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2c (56364)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 52700, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 255.625525     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 84: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2d (56365)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 52700, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 258.846870     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 85: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 268.846278     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 86: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 278.846231     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 87: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 288.845959     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 88: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 298.846296     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 89: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 300.002963     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 90: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 308.846302     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 91: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 318.846528     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 92: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 328.859372     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 93: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 338.858270     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 94: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 348.858379     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 95: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 358.858451     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 96: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 360.003605     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 97: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 368.858669     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 98: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 372.598300     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 99: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2e (56366)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 58971, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 373.616010     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 100: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc2f (56367)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 58971, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 374.625921     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 101: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc30 (56368)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 58971, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 375.639280     30.30.30.6            239.255.255.250       SSDP     216    M-SEARCH * HTTP/1.1 
+
+Frame 102: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 202
+    Identification: 0xdc31 (56369)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 1
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 239.255.255.250
+User Datagram Protocol, Src Port: 58971, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 378.858549     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 103: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 388.889889     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 104: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 398.886830     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 105: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 408.886766     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 106: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 413.110161     30.30.30.6            224.0.0.251           MDNS     83     Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question
+
+Frame 107: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 69
+    Identification: 0xae51 (44625)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 413.200736     30.30.30.6            224.0.0.251           MDNS     127    Standard query 0x0000 PTR _http._tcp.local, "QM" question PTR _ni-rt._tcp.local, "QM" question PTR _ni-sysapi._tcp.local, "QM" question PTR _ni._tcp.local, "QM" question PTR _lxi._tcp.local, "QM" question
+
+Frame 108: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: RealtekS_68:23:8b (00:e0:4c:68:23:8b), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 30.30.30.6, Dst: 224.0.0.251
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 113
+    Identification: 0xae52 (44626)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 30.30.30.6
+    Destination Address: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 418.886995     Cisco_82:0b:84        Cisco_82:0b:84        LOOP     60     Reply
+
+Frame 109: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+Ethernet II, Src: Cisco_82:0b:84 (00:10:7b:82:0b:84), Dst: Cisco_82:0b:84 (00:10:7b:82:0b:84)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+    Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    [Length: 40]
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 420.003905     Cisco_82:0b:84        CDP/VTP/DTP/PAgP/UDLD CDP      365    Device ID: Router  Port ID: Ethernet0  
+
+Frame 110: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface \Device\NPF_{286628B7-C690-4A38-B5BC-FA4478D21241}, id 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
